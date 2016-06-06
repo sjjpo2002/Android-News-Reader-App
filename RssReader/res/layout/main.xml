@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/logocs"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What kind of news?"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radiosports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Sports" />
+
+            <RadioButton
+                android:id="@+id/radiohealth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health" />
+
+            <RadioButton
+                android:id="@+id/radiocomputer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer/IT" />
+
+            <RadioButton
+                android:id="@+id/radiopolitics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Politics" />
+
+            <RadioButton
+                android:id="@+id/radioEntertainment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entertainment" />
+
+            <RadioButton
+                android:id="@+id/radioBusiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="read the news" />
+
+    </LinearLayout>
